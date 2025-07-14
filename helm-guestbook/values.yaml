@@ -5,8 +5,8 @@
 replicaCount: 3
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
-  tag: 0.1
+  repository: docker.io/corelab/ks-guestbook-demo
+  tag: "0.2" # Make sure to use quotes if the tag can be interpreted as a number
   pullPolicy: IfNotPresent
 
 service:
